@@ -39,9 +39,9 @@
  * 4. Повертається значення властивості
  */
 
-const dummyObj = Object.create({ message: 'Це властивість обєкта прототипа' });
-dummyObj.message = 'Властивість обєкта';
+// const dummyObj = Object.create({ message: 'Це властивість обєкта прототипа' });
+// dummyObj.message = 'Властивість обєкта';
 
-console.log('dummyObj', dummyObj);
+// console.log('dummyObj', dummyObj);
 
-console.log(dummyObj.message);
+// console.log(dummyObj.message);
