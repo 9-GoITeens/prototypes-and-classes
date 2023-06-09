@@ -18,7 +18,7 @@
 // console.log('objB', objB);
 // console.log('objB.y', objB.y);
 // console.log('objB.z', objB.z);
-// // clo - консолька для того щоб підписати
+// // // clo - консолька для того щоб підписати
 
 // console.log('objC', objC);
 
@@ -26,10 +26,10 @@
 // objA.x = 1;
 
 // console.log('objA', objA);
-// objA.z = 1000;
-// console.log('objA.z', objA.z);
-// console.log(objC.hasOwnProperty('x'));
-// console.log(objC.hello);
+// // objA.z = 1000;
+// // console.log('objA.z', objA.z);
+// console.log(objC.hasOwnProperty('z'));
+// // console.log(objC.hello);
 
 /*
  * Алгоритм пошуку властивостей в цепочке прототипів:
