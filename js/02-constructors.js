@@ -100,3 +100,13 @@ mango.changeEmail('newEmail@gmail.com');
  * - Статичні властивості і методи доступні тільки на самому конструкторі
  * - В статичних методах не потрібен this
  */
+
+User.message = 'Я статична властивість, мене немає на екземплярі';
+User.logInfo = function (obj) {
+  console.log(obj.email);
+  console.log(obj.password);
+};
+
+User.logInfo(mango);
+
+console.dir(User);
